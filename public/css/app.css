@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;
+
+500;700&display=swap);.container {
+  margin: auto;
+  width: 100%;
+  max-width: var(--container-md);
+  padding: 0 0.625rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  /*------------
+      COLORS
+  ------------*/
+  --primary-color: #0282f9;
+  --primary-color-text: #fff;
+  --primary-bg-color: #1c1c1c;
+  /*----------------------
+      CONTAINERS SIZE
+  ----------------------*/
+  --container-md: 80rem;
+}
+
+.comics {
+  background-color: var(--primary-bg-color);
+  height: 100vh;
+}
+
+.comics__list {
+  padding: 1.25rem 0 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comics__card {
+  width: calc(16.6666666667% - 1.875rem);
+  text-align: left;
+  margin: 0.9375rem;
+  text-decoration: none;
+}
+
+.comics__card:hover .comics__card-text {
+  color: var(--primary-color);
+}
+
+.comics__card:hover .comics__card-img {
+  opacity: 0.5;
+}
+
+.comics__card-img {
+  width: 100%;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+
+.comics__card-text {
+  color: var(--primary-color-text);
+  text-transform: uppercase;
+}
+

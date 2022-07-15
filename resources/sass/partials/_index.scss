@@ -1,0 +1,37 @@
+.comics {
+    background-color: var(--primary-bg-color);
+    height: 100vh;
+
+    &__list {
+        padding: 1.25rem 0 1.875rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__card {
+        width: calc(100% / 6 - 1.875rem);
+        text-align: left;
+        margin: .9375rem;
+        text-decoration: none;
+
+        &:hover &-text {
+            color: var(--primary-color);
+        }
+
+        &:hover &-img {
+            opacity: 0.5;
+        }
+        
+        &-img {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            object-position: top center;
+        }
+
+        &-text {
+            color: var(--primary-color-text);
+            text-transform: uppercase;
+        }
+    }
+}
