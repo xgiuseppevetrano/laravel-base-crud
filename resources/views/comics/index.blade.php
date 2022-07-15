@@ -8,7 +8,7 @@
     <main>
         <div class="index">
             <div class="container">
-                <a href="{{route('home')}}"><button class="index__btn"><i class="fa-solid fa-arrow-left"></i> Welcome</button></a>
+                <a href="{{route('home')}}"><button class="btn"><i class="fa-solid fa-arrow-left"></i> Welcome</button></a>
                 <div class="index__list">
                     @foreach ($comics as $id => $comic)
                         <a href="{{route('comics.show', $comic["id"])}}" class="index__card">

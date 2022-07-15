@@ -26,8 +26,8 @@
                         <img class="show__sx-img" src="{{$comic["image"]}}" alt="{{$comic["title"]}}">
                     </div>
                 </div>
-                <div class="show__btn">
-                    <a href="{{route('comics.index')}}"><button class="show__button">Back to home</button></a>
+                <div class="show__button">
+                    <a href="{{route('comics.index')}}"><button class="btn">Back to home</button></a>
                 </div>
             </div>
         </div>

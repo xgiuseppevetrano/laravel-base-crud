@@ -37,18 +37,4 @@
             text-transform: uppercase;
         }
     }
-
-    &__btn {
-        padding: .5rem 1.25rem;
-        text-transform: uppercase;
-        font-weight: 600;
-        border-radius: .5rem;
-        cursor: pointer;
-
-        &:hover {
-            background-color: var(--primary-color);
-            color: var(--primary-color-text);
-            transition: 0.5s;
-        }
-    }
 }
