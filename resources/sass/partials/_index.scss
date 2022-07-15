@@ -9,6 +9,8 @@
         padding: 1.25rem 0 1.875rem;
         display: flex;
         flex-wrap: wrap;
+        height: calc(100vh - 100px);
+        overflow-y: auto;
     }
 
     &__card {
@@ -36,5 +38,9 @@
             color: var(--primary-color-text);
             text-transform: uppercase;
         }
+    }
+
+    .btn {
+        margin: 20px 0;
     }
 }

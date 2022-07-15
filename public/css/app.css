@@ -61,6 +61,10 @@ body {
   margin-bottom: 2.5rem;
 }
 
+.home .btn {
+  margin: 0 1.25rem;
+}
+
 .index {
   background-color: var(--primary-bg-color);
   height: 100vh;
@@ -73,6 +77,8 @@ body {
   padding: 1.25rem 0 1.875rem;
   display: flex;
   flex-wrap: wrap;
+  height: calc(100vh - 100px);
+  overflow-y: auto;
 }
 
 .index__card {
@@ -102,6 +108,10 @@ body {
 .index__card-text {
   color: var(--primary-color-text);
   text-transform: uppercase;
+}
+
+.index .btn {
+  margin: 20px 0;
 }
 
 .show {
@@ -171,10 +181,7 @@ body {
 
 .show__store-sx {
   width: 30%;
-}
-
-.show__store-sx .fa-caret-down {
-  font-size: 0.75rem;
+  text-align: center;
 }
 
 .show__store-available {
@@ -184,6 +191,28 @@ body {
 .show__button {
   text-align: center;
   margin: 1.875rem 0;
+}
+
+.create {
+  background-color: var(--primary-bg-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create__title {
+  text-align: center;
+  color: var(--primary-color-text);
+  margin: 1.25rem 0;
+}
+
+.create__form {
+  color: var(--primary-color-text);
+}
+
+.create__form-box {
+  margin: 0.9375rem 0;
 }
 
 /*!

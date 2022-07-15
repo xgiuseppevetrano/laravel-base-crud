@@ -17,7 +17,7 @@
                                 <span class="show__store-available">Available</span>
                             </div>
                             <div class="show__store-sx">
-                                <span>Check Availability <i class="fa-solid fa-caret-down"></i></span>
+                                <span>{{$comic["sale_date"]}}</span>
                             </div>
                         </div>
                         <p class="show__description">{{$comic["description"]}}</p>
