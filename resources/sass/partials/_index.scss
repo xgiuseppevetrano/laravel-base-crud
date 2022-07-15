@@ -6,11 +6,27 @@
     justify-content: center;
 
     &__list {
-        padding: 1.25rem 0 1.875rem;
         display: flex;
         flex-wrap: wrap;
-        height: calc(100vh - 100px);
+        height: calc(100vh - 6.25rem);
         overflow-y: auto;
+
+        &::-webkit-scrollbar {
+            width: .5rem;
+        }
+
+        &::-webkit-scrollbar-track {
+            border-radius: .625rem;
+        }
+            
+        &::-webkit-scrollbar-thumb {
+            background: var(--bg-color-scrollbar); 
+            border-radius: .625rem;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            background: var(--bg-color-active-scrollbar);
+        }
     }
 
     &__card {
@@ -41,6 +57,6 @@
     }
 
     .btn {
-        margin: 20px 0;
+        margin: 1.25rem 0;
     }
 }
