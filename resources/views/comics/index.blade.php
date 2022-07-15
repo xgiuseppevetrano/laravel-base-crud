@@ -6,13 +6,13 @@
 
 @section('page-content')
     <main>
-        <div class="comics">
+        <div class="index">
             <div class="container">
-                <div class="comics__list">
+                <div class="index__list">
                     @foreach ($comics as $id => $comic)
-                        <a href="#" class="comics__card">
-                            <img class="comics__card-img" src="{{asset($comic["image"])}}" alt="{{$comic["title"]}}">
-                            <small class="comics__card-text">{{$comic["title"]}}</small>
+                        <a href="{{route('comics.show', $comic["id"])}}" class="index__card">
+                            <img class="index__card-img" src="{{asset($comic["image"])}}" alt="{{$comic["title"]}}">
+                            <small class="index__card-text">{{$comic["title"]}}</small>
                         </a>
                     @endforeach
                 </div>
