@@ -18,4 +18,16 @@
             margin: .9375rem 0;
         }
     }
+
+    .error {
+        padding: .625rem;
+        margin: .625rem 0;
+        color: #842029;
+        background-color: #f8d7da;
+        border-color: #f5c2c7;
+
+        &__list {
+            margin-left: 1.25rem;
+        }
+    }
 }
