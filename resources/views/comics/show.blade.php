@@ -28,6 +28,7 @@
                 </div>
                 <div class="show__button">
                     <a href="{{route('comics.index')}}"><button class="btn">Back to home</button></a>
+                    <a href="{{route('comics.edit', $comic["id"])}}"><button class="btn">Edit this comic</button></a>
                 </div>
             </div>
         </div>

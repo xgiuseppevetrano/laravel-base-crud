@@ -211,6 +211,10 @@ body {
   margin: 1.875rem 0;
 }
 
+.show__button .btn {
+  margin: 0 1.25rem;
+}
+
 .create {
   background-color: var(--primary-bg-color);
   height: 100vh;
@@ -230,6 +234,28 @@ body {
 }
 
 .create__form-box {
+  margin: 0.9375rem 0;
+}
+
+.edit {
+  background-color: var(--primary-bg-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit__title {
+  text-align: center;
+  color: var(--primary-color-text);
+  margin: 1.25rem 0;
+}
+
+.edit__form {
+  color: var(--primary-color-text);
+}
+
+.edit__form-box {
   margin: 0.9375rem 0;
 }
 

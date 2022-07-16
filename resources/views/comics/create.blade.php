@@ -9,7 +9,7 @@
         <div class="create">
             <div class="container">
                 <div class="create__button">
-                    <a href="{{route('home')}}"><button class="btn"><i class="fa-solid fa-arrow-left"></i> Welcome</button></a>
+                    <a href="{{route('comics.index')}}"><button class="btn"><i class="fa-solid fa-arrow-left"></i> Comics</button></a>
                 </div>
                 <h1 class="create__title">Create a new comic</h1>
                 <form class="create__form" action="{{route('comics.store')}}" method="POST">

@@ -1,0 +1,21 @@
+.edit {
+    background-color: var(--primary-bg-color);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__title {
+        text-align: center;
+        color: var(--primary-color-text);
+        margin: 1.25rem 0;
+    }
+
+    &__form {
+        color: var(--primary-color-text);
+
+        &-box {
+            margin: .9375rem 0;
+        }
+    }
+}
