@@ -63,10 +63,6 @@ body {
   margin-bottom: 2.5rem;
 }
 
-.home .btn {
-  margin: 0 1.25rem;
-}
-
 .index {
   background-color: var(--primary-bg-color);
   height: 100vh;
@@ -129,7 +125,7 @@ body {
 }
 
 .index .btn {
-  margin: 1.25rem 0;
+  margin: 1.25rem;
 }
 
 .show {
@@ -202,7 +198,7 @@ body {
   text-align: center;
 }
 
-.show__store-available {
+.show__store-type {
   text-transform: uppercase;
 }
 
@@ -213,6 +209,10 @@ body {
 
 .show__button .btn {
   margin: 0 1.25rem;
+}
+
+.show__button .form {
+  display: inline-block;
 }
 
 .create {
